@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income expense tracker - by San SK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="data-field">
+            <h4>Income expense tracker</h4>
+            <h3 id="balance">Balance : <span id="bal"></span></h3>
+            <div class="inc-exp-filed">
+                <div class="income">
+                    <h4>Income</h4>
+                    <h5 id="income">₹0.00</h5>
+                </div>
+                <div class="expense">
+                    <h4>Expense</h4>
+                    <h5 id="expense">₹0.00</h5>
+                </div>
+            </div>
+            <form action="#" id="form">
+                <div class="radio">
+                    <div style="--color:rgb(10,150,0)">
+                        <input type="radio" name="inc-exp" id="inc-radio" required>
+                        <label for="inc-radio" id="inc-label">Income</label>
+                    </div>
+                    <div style="--color:rgb(210,10,0)">
+                        <input type="radio" name="inc-exp" id="exp-radio" required>
+                        <label for="exp-radio" id="exp-label">Expense</label>
+                    </div>
+                </div>
+                <div class="input-field">
+                    <label for="description">Description</label>
+                    <input type="text" id="description" placeholder="Enter description" required>
+                </div>
+                <div class="input-field">
+                    <label for="amount">Amount</label>
+                    <input type="number" id="amount" placeholder="Enter amount" required>
+                </div>
+                <input type="submit" value="Add transaction">
+                <label for="" onclick="flip()">view transactions <img src="images/bx-arrow-back.svg" alt="->"></label>
+            </form>
+        </div>
+        <div class="transactions">
+            <img src="images/bx-arrow-back.svg" alt="<-" onclick="flipBack()">
+            <h3>Transactions</h3>
+            <ul id="trans-data">
+                
+            </ul>
+            <div class="trans-balance">
+                <label for="">Your Balance  </label><span id="urAmount">: ₹10000</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
