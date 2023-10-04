@@ -18,7 +18,11 @@ This web application utilizes the following technologies and tools:
 - HTML: The backbone of the web page's structure and content.
 - CSS: Used for styling and layout of the web page.
 - JavaScript: Provides interactivity and functionality for the income and expense tracker.
+- Local storage: The data are stored in local storage.So,data are not deleted even after refreshing the web page or closing the tab.
 
+## Note
+ - Hover over each transaction to reveal the delete icon for removing the specific transaction.
+   
 ## Preview
 https://iamsansk.github.io/Income-expense-tracker/
 
