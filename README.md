@@ -9,6 +9,8 @@ Income Expense Tracker is a simple web application that helps you track your inc
 - Track both income and expenses.
 - View your current balance.
 - Add and view transactions.
+- An interactive flip effect enhances user experience, revealing hidden content through smooth animations on this web page.
+  
 ## Technologies Used
 
 This web application utilizes the following technologies and tools:
@@ -18,5 +20,5 @@ This web application utilizes the following technologies and tools:
 - JavaScript: Provides interactivity and functionality for the income and expense tracker.
 
 ## Preview
-
+https://iamsansk.github.io/Income-expense-tracker/
 
